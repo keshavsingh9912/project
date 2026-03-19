@@ -1,0 +1,60 @@
+
+body {
+    background-color: coral;
+}
+
+
+.head {
+    color: darkblue;
+}
+
+
+#bglime {
+    background-color: lime;
+}
+
+
+#bglime::first-line {
+    color: red;
+}
+
+
+p {
+    color: white;
+}
+
+#para {
+    color: green;
+}
+
+
+#para::first-line {
+    color: black;
+    font-size: 20px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+ul li:first-child a {
+    background-color: yellow;
+    color: red;
+}
+
+
+ul li:last-child a {
+    background-color: purple;
+    color: white;
+}
+
+
+ol li:nth-child(2) {
+    color: blue;
+}
+
+ol li:nth-child(3) {
+    color: red;
+}
